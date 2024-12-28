@@ -6,8 +6,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/autsu/fuckgomodule"
-	"github.com/autsu/fuckgomodule/reporters/pyroscope_reporter"
+	"github.com/autsu/holmes1"
+	"github.com/autsu/holmes1/reporters/pyroscope_reporter"
 	"rideshare/bike"
 	"rideshare/car"
 	"rideshare/scooter"

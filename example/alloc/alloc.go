@@ -24,7 +24,7 @@ import (
 
 	mlog "mosn.io/pkg/log"
 
-	"github.com/autsu/fuckgomodule"
+	"github.com/autsu/holmes1"
 )
 
 // run `curl http://localhost:10003/alloc` after 15s(warn up)

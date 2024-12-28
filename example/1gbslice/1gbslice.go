@@ -22,7 +22,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/autsu/fuckgomodule"
+	"github.com/autsu/holmes1"
 )
 
 // run `curl http://localhost:10003/make1gb` after 15s(warn up)

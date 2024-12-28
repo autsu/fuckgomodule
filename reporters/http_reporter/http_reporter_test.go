@@ -18,7 +18,7 @@
 package http_reporter
 
 import (
-	"github.com/autsu/fuckgomodule"
+	"github.com/autsu/holmes1"
 	"log"
 	"testing"
 	"time"

@@ -1,4 +1,4 @@
-module github.com/autsu/fuckgomodule
+module github.com/autsu/holmes1
 
 go 1.22.0
 

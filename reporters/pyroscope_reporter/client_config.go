@@ -20,7 +20,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/autsu/fuckgomodule/reporters/pyroscope_reporter/flameql"
+	"github.com/autsu/holmes1/reporters/pyroscope_reporter/flameql"
 )
 
 /*

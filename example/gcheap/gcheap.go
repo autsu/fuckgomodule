@@ -22,12 +22,12 @@ import (
 
 	mlog "mosn.io/pkg/log"
 
-	//"github.com/autsu/fuckgomodule/reporters/http_reporter"
+	//"github.com/autsu/holmes1/reporters/http_reporter"
 	"math/rand"
 	"net/http"
 	"time"
 
-	"github.com/autsu/fuckgomodule"
+	"github.com/autsu/holmes1"
 )
 
 // run `curl http://localhost:10024/rand` after 15s(warn up)

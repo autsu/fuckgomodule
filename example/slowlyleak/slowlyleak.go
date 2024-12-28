@@ -21,7 +21,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/autsu/fuckgomodule"
+	"github.com/autsu/holmes1"
 )
 
 func init() {
