@@ -8,7 +8,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/autsu/holmes"
+	"github.com/autsu/fuckgomodule"
 )
 
 var h *holmes.Holmes

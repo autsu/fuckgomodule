@@ -29,7 +29,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/autsu/holmes"
+	"github.com/autsu/fuckgomodule"
 
 	mlog "mosn.io/pkg/log"
 )

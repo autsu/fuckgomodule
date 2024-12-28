@@ -38,7 +38,7 @@ holmes 每隔一段时间收集一次以下应用指标：
 ## 如何使用
 
 ```shell
-    go get github.com/autsu/holmes
+    go get github.com/autsu/fuckgomodule
 ```
 在应用初始化逻辑加上对应的holmes配置。
 ```go

@@ -5,7 +5,7 @@ go 1.22.0
 toolchain go1.23.2
 
 require (
-	github.com/autsu/holmes v0.0.0-20220125114618-8cb365eb42ac
+	github.com/autsu/fuckgomodule v0.0.0-20220125114618-8cb365eb42ac
 	mosn.io/pkg v1.6.0
 )
 
@@ -20,4 +20,4 @@ require (
 	mosn.io/api v1.5.0 // indirect
 )
 
-replace github.com/autsu/holmes => ../../
+replace github.com/autsu/fuckgomodule => ../../

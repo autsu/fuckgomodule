@@ -35,7 +35,7 @@ import (
 
 	_ "net/http/pprof"
 
-	"github.com/autsu/holmes"
+	"github.com/autsu/fuckgomodule"
 )
 
 func init() {

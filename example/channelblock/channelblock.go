@@ -22,7 +22,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/autsu/holmes"
+	"github.com/autsu/fuckgomodule"
 )
 
 // run `curl http://localhost:10003/chanblock` after 15s(warn up)

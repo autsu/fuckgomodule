@@ -26,7 +26,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/autsu/holmes"
+	"github.com/autsu/fuckgomodule"
 )
 
 type HttpReporter struct {
