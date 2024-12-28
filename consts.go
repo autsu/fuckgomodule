@@ -19,6 +19,7 @@ package holmes
 
 import (
 	"os"
+	"sync"
 	"time"
 )
 
@@ -98,6 +99,11 @@ const (
 	cgroupCpuPeriodPath = "/sys/fs/cgroup/cpu/cpu.cfs_period_us"
 )
 
+const (
+	cgroupMemLimitPathV2 = "/sys/fs/cgroup/memory.max"
+	cgroupCpuMaxPathV2   = "/sys/fs/cgroup/cpu.max"
+)
+
 const minCollectCyclesBeforeDumpStart = 10
 
 const (
@@ -113,4 +119,25 @@ const (
 
 	// UniformLogFormat is the format of uniform logging.
 	UniformLogFormat = "[Holmes] %v %v, config_min : %v, config_diff : %v, config_abs : %v, config_max : %v, previous : %v, current: %v"
+)
+
+var (
+	checkMode sync.Once
+	cgMode    CGMode
+)
+
+const unifiedMountpoint = "/sys/fs/cgroup"
+
+// CGMode is the cgroups mode of the host system
+type CGMode int
+
+const (
+	// Unavailable cgroup mountpoint
+	Unavailable CGMode = iota
+	// Legacy cgroups v1
+	Legacy
+	// Hybrid with cgroups v1 and v2 controllers mounted
+	Hybrid
+	// Unified with only cgroups v2 mounted
+	Unified
 )

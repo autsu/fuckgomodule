@@ -708,7 +708,8 @@ func (h *Holmes) getCPUCore() (float64, error) {
 	}
 
 	if h.opts.UseCGroup {
-		return getCGroupCPUCore()
+		//return getCGroupCPUCore()
+		return NewCGroup().CGroupCPUCore()
 	}
 
 	return float64(runtime.NumCPU()), nil
@@ -720,7 +721,8 @@ func (h *Holmes) getMemoryLimit() (uint64, error) {
 	}
 
 	if h.opts.UseCGroup {
-		return getCGroupMemoryLimit()
+		//return getCGroupMemoryLimit()
+		return NewCGroup().CGroupMemoryLimit()
 	}
 
 	return getNormalMemoryLimit()
