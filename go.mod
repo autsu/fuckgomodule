@@ -1,4 +1,4 @@
-module mosn.io/holmes
+module github.com/autsu/holmes
 
 go 1.22.0
 
