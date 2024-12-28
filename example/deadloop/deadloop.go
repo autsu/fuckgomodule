@@ -22,7 +22,7 @@ import (
 	"net/http"
 	"time"
 
-	"mosn.io/holmes"
+	"github.com/autsu/holmes"
 )
 
 // run `curl http://localhost:10003/alldeadloopoc` after 15s(warn up)

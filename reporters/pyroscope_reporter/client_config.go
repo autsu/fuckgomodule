@@ -20,11 +20,11 @@ import (
 	"errors"
 	"time"
 
-	"mosn.io/holmes/reporters/pyroscope_reporter/flameql"
+	"github.com/autsu/holmes/reporters/pyroscope_reporter/flameql"
 )
 
 /*
-	Copied from pyroscope-io/client
+Copied from pyroscope-io/client
 */
 var (
 	ErrCloudTokenRequired = errors.New("Please provide an authentication token. You can find it here: https://pyroscope.io/cloud")

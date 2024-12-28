@@ -8,7 +8,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"mosn.io/holmes"
+	"github.com/autsu/holmes"
 )
 
 var h *holmes.Holmes

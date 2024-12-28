@@ -1,9 +1,11 @@
 module example.com/m
 
-go 1.17
+go 1.22.0
+
+toolchain go1.23.2
 
 require (
-	mosn.io/holmes v0.0.0-20220125114618-8cb365eb42ac
+	github.com/autsu/holmes v0.0.0-20220125114618-8cb365eb42ac
 	mosn.io/pkg v1.6.0
 )
 
@@ -13,9 +15,9 @@ require (
 	github.com/hashicorp/go-syslog v1.0.0 // indirect
 	github.com/rcrowley/go-metrics v0.0.0-20200313005456-10cdbea86bc0 // indirect
 	github.com/shirou/gopsutil v3.20.11+incompatible // indirect
-	golang.org/x/sys v0.0.0-20220227234510-4e6760a101f9 // indirect
+	golang.org/x/sys v0.27.0 // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
 	mosn.io/api v1.5.0 // indirect
 )
 
-replace mosn.io/holmes => ../../
+replace github.com/autsu/holmes => ../../

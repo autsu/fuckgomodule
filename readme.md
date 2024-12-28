@@ -47,7 +47,7 @@ to your dump path. You could just fetch the profile and see what actually happen
 ## How to use
 
 ```shell
-    go get mosn.io/holmes
+    go get github.com/autsu/holmes
 ```
 
 ### Dump goroutine when goroutine number spikes

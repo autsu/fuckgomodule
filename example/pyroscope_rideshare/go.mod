@@ -1,7 +1,9 @@
 module rideshare
 
-go 1.14
+go 1.22.0
 
-require mosn.io/holmes v1.1.0
+toolchain go1.23.2
 
-replace mosn.io/holmes => ../../
+require github.com/autsu/holmes v1.1.0
+
+replace github.com/autsu/holmes => ../../

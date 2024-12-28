@@ -23,7 +23,7 @@ import (
 	"sync"
 	"time"
 
-	"mosn.io/holmes"
+	"github.com/autsu/holmes"
 )
 
 // run `curl http://localhost:10003/lockorder1` after 15s(warn up)

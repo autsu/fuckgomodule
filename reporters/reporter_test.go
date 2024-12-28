@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"mosn.io/holmes"
+	"github.com/autsu/holmes"
 )
 
 var h *holmes.Holmes

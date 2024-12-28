@@ -26,7 +26,7 @@ import (
 	"net/http"
 	"time"
 
-	"mosn.io/holmes"
+	"github.com/autsu/holmes"
 )
 
 type HttpReporter struct {

@@ -18,8 +18,8 @@
 package http_reporter
 
 import (
+	"github.com/autsu/holmes"
 	"log"
-	"mosn.io/holmes"
 	"testing"
 	"time"
 

@@ -21,7 +21,7 @@ import (
 	"net/http"
 	"time"
 
-	"mosn.io/holmes"
+	"github.com/autsu/holmes"
 )
 
 func init() {
