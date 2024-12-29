@@ -65,7 +65,7 @@ func (C *CGroupV2) CGroupMemoryLimit() (uint64, error) {
 	if err != nil {
 		return 0, err
 	}
-	mem, err := parseUint(string(v), 10, 64)
+	mem, err := parseUint(strings.TrimSpace(string(v)), 10, 64)
 	if err != nil {
 		return 0, err
 	}
